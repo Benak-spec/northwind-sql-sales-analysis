@@ -68,7 +68,7 @@ ON orders.order_id = order_details.order_id
 GROUP BY customers.contact_name
 ORDER BY total_revenue DESC
 ```
-**Insight:** This analysis highlisghts the most revenue generated customers, in this case it is Horst Kloss with 110277.30503039382.
+**Insight:** This analysis highlights the most revenue generated customers, in this case it is Horst Kloss with 110277.30503039382.
 
 ### 5. Show total number of orders placed by each customer, with customer name, sorted from highest to lowest.
 ```sql
